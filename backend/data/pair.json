@@ -1,0 +1,16 @@
+{
+  "job": {
+    "title": "Software Engineer",
+    "company": "Acme Corp",
+    "location": "San Francisco, CA",
+    "description": "We are looking for a talented software engineer to join our growing team. You will be responsible for designing, developing, and testing software applications.",
+    "requirements": "Bachelor's degree in Computer Science or related field. 3+ years of experience in software development. Proficiency in Python and Java."
+  },
+  "resume": {
+    "summary": "Highly motivated and experienced software engineer with a passion for building innovative and scalable applications.",
+    "skills": "Python, Java, JavaScript, SQL, Git, Docker, Kubernetes",
+    "education": "Bachelor of Science in Computer Science - University of California, Berkeley",
+    "experience": "Software Engineer - Example Inc. (2020-Present)\n- Developed and maintained web applications using Python and Django.\n- Collaborated with a team of engineers to design and implement new features.",
+    "projects": "Personal Portfolio Website - Built a personal website using React and Node.js.\nMachine Learning Project - Developed a machine learning model to predict customer churn."
+  }
+}

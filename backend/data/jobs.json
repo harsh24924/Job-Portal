@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Senior Software Engineer, AI/ML",
+    "company": "Tech Innovations Inc.",
+    "location": "San Francisco, CA",
+    "description": "Develop and deploy cutting-edge AI/ML models for our flagship product. Work on scalable distributed systems and contribute to the full software development lifecycle.",
+    "requirements": "5+ years experience in software engineering, 3+ years in AI/ML. Strong Python, Java, or C++. Experience with TensorFlow, PyTorch, or similar. MS/PhD in Computer Science or related field."
+  },
+  {
+    "title": "Marketing Manager, Digital Campaigns",
+    "company": "Global Brand Solutions",
+    "location": "New York, NY",
+    "description": "Lead the strategy, execution, and optimization of digital marketing campaigns across various channels (SEO, SEM, Social Media, Email). Analyze performance and report on KPIs.",
+    "requirements": "5+ years in digital marketing, with 2+ years in a management role. Proven track record of successful campaign management. Expertise in Google Analytics, Google Ads, Facebook Ads. Bachelor's degree in Marketing or related field."
+  },
+  {
+    "title": "Product Designer (UX/UI)",
+    "company": "Creative Minds Studio",
+    "location": "Austin, TX",
+    "description": "Design intuitive and engaging user experiences for web and mobile applications. Conduct user research, create wireframes, prototypes, and high-fidelity mockups.",
+    "requirements": "3+ years experience in UX/UI design. Portfolio demonstrating strong design principles and user-centered design approach. Proficiency in Figma, Sketch, Adobe XD. Bachelor's degree in Design, HCI, or related."
+  },
+  {
+    "title": "Data Scientist, Customer Analytics",
+    "company": "E-commerce Giant Corp.",
+    "location": "Seattle, WA",
+    "description": "Utilize advanced statistical methods and machine learning to analyze customer behavior, identify trends, and provide actionable insights to inform business decisions.",
+    "requirements": "3+ years experience as a Data Scientist. Strong SQL, Python/R. Experience with A/B testing, regression analysis, predictive modeling. Master's or PhD in Statistics, Computer Science, or a quantitative field."
+  },
+  {
+    "title": "Technical Support Specialist, Tier 2",
+    "company": "Software Solutions LLC",
+    "location": "Remote (US)",
+    "description": "Provide advanced technical support to customers for our enterprise software products. Troubleshoot complex issues, escalate when necessary, and document solutions.",
+    "requirements": "2+ years experience in technical support, preferably for B2B software. Strong problem-solving skills and communication. Familiarity with ticketing systems (e.g., Zendesk). Associate's or Bachelor's degree preferred."
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Investment Group Inc.",
+    "location": "Chicago, IL",
+    "description": "Prepare financial forecasts, budgets, and variance analysis. Support strategic planning and provide data-driven recommendations to senior management.",
+    "requirements": "3+ years experience in financial analysis or accounting. Strong Excel modeling skills. Experience with financial planning software (e.g., Anaplan, Hyperion). Bachelor's degree in Finance, Accounting, or Economics."
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "Cloud Computing Co.",
+    "location": "Denver, CO",
+    "description": "Build and maintain scalable, reliable, and secure infrastructure for our cloud-native applications. Implement CI/CD pipelines and automate operational tasks.",
+    "requirements": "4+ years experience in DevOps or SRE. Expertise in AWS, Azure, or GCP. Strong scripting skills (Python, Bash). Experience with Docker, Kubernetes, Terraform. Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Human Resources Generalist",
+    "company": "Manufacturing Innovations",
+    "location": "Houston, TX",
+    "description": "Manage various HR functions including recruitment, onboarding, employee relations, performance management, and HR policy implementation.",
+    "requirements": "3+ years experience as an HR Generalist. Strong knowledge of labor laws and HR best practices. Excellent communication and interpersonal skills. Bachelor's degree in HR or related field. HR certification (e.g., SHRM-CP) a plus."
+  },
+  {
+    "title": "Copywriter, Content Marketing",
+    "company": "Digital Media Agency",
+    "location": "Los Angeles, CA",
+    "description": "Create compelling and engaging content for websites, blogs, social media, and marketing campaigns. Ensure brand voice consistency and optimize for SEO.",
+    "requirements": "2+ years experience in professional copywriting. Strong portfolio demonstrating diverse writing styles. Excellent grammar and attention to detail. Bachelor's degree in English, Journalism, or Marketing."
+  },
+  {
+    "title": "Research Scientist, Drug Discovery",
+    "company": "BioPharma Solutions",
+    "location": "Cambridge, MA",
+    "description": "Design and conduct experiments to identify and validate novel drug targets. Analyze data and present findings to cross-functional teams.",
+    "requirements": "PhD in Biology, Biochemistry, Pharmacology, or related field. 2+ years post-doctoral experience in drug discovery. Expertise in molecular biology techniques. Strong publication record."
+  },
+  {
+    "title": "Project Manager, IT Infrastructure",
+    "company": "Financial Services Group",
+    "location": "Dallas, TX",
+    "description": "Oversee the planning, execution, and delivery of IT infrastructure projects, ensuring they are completed on time and within budget.",
+    "requirements": "5+ years experience in IT project management, with a focus on infrastructure. PMP certification preferred. Strong understanding of network, server, and cloud technologies. Bachelor's degree in IT or related."
+  },
+  {
+    "title": "Sales Representative, Enterprise Software",
+    "company": "Business Tech Solutions",
+    "location": "Atlanta, GA",
+    "description": "Drive new business acquisition by identifying and engaging with enterprise-level clients. Manage the full sales cycle from prospecting to closing deals.",
+    "requirements": "3+ years experience in B2B enterprise software sales. Proven track record of exceeding sales targets. Strong negotiation and presentation skills. Bachelor's degree."
+  },
+  {
+    "title": "Quality Assurance Engineer, Automation",
+    "company": "Gaming Studio Inc.",
+    "location": "San Diego, CA",
+    "description": "Develop and maintain automated test suites for our gaming applications. Collaborate with development teams to ensure high-quality software releases.",
+    "requirements": "3+ years experience in QA automation. Proficiency in at least one scripting language (Python, C#, Java). Experience with test automation frameworks (e.g., Selenium, Cypress). Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Electrical Engineer, Hardware Design",
+    "company": "Robotics Innovations",
+    "location": "Boston, MA",
+    "description": "Design, develop, and test embedded hardware systems for advanced robotic products. Work with microcontrollers, sensors, and power management circuits.",
+    "requirements": "4+ years experience in electrical engineering, with a focus on hardware design. Expertise in PCB design (Altium, Eagle). Strong understanding of analog and digital circuits. Bachelor's or Master's in Electrical Engineering."
+  },
+  {
+    "title": "Content Strategist",
+    "company": "Educational Tech Corp.",
+    "location": "Remote (Global)",
+    "description": "Define and execute content strategies that align with business goals and user needs. Conduct content audits, create content maps, and oversee content creation.",
+    "requirements": "5+ years experience in content strategy or a related field. Strong understanding of SEO, UX, and content marketing principles. Excellent analytical and communication skills. Bachelor's degree."
+  },
+  {
+    "title": "Systems Administrator",
+    "company": "Healthcare Systems Inc.",
+    "location": "Philadelphia, PA",
+    "description": "Manage and maintain our Windows and Linux server environments. Ensure system stability, security, and performance. Provide support for various applications.",
+    "requirements": "3+ years experience as a Systems Administrator. Proficiency in Windows Server and Linux. Experience with virtualization (VMware, Hyper-V). Strong troubleshooting skills. Bachelor's degree in IT or related."
+  },
+  {
+    "title": "Architect, Solutions Engineering",
+    "company": "Cloud Integration Corp.",
+    "location": "San Jose, CA",
+    "description": "Design and architect complex cloud solutions for enterprise clients. Provide technical leadership and guidance to pre-sales and implementation teams.",
+    "requirements": "8+ years experience in solutions architecture or related role. Deep expertise in AWS, Azure, or GCP. Strong understanding of enterprise architecture patterns. Excellent communication and presentation skills."
+  },
+  {
+    "title": "Public Relations Specialist",
+    "company": "Consumer Goods Co.",
+    "location": "Miami, FL",
+    "description": "Develop and execute PR strategies to enhance brand reputation and media coverage. Write press releases, manage media relations, and handle crisis communications.",
+    "requirements": "3+ years experience in public relations. Proven track record of securing media placements. Excellent writing and communication skills. Bachelor's degree in PR, Communications, or Journalism."
+  },
+  {
+    "title": "Database Administrator (DBA)",
+    "company": "Fintech Innovations",
+    "location": "Charlotte, NC",
+    "description": "Manage and maintain our SQL and NoSQL databases. Ensure data integrity, performance, and security. Implement backup and recovery strategies.",
+    "requirements": "4+ years experience as a DBA. Expertise in SQL Server, PostgreSQL, or MySQL. Experience with cloud databases (e.g., AWS RDS). Strong troubleshooting and optimization skills. Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Senior Accountant",
+    "company": "Retail Chain Corp.",
+    "location": "Phoenix, AZ",
+    "description": "Manage general ledger, prepare financial statements, reconcile accounts, and assist with month-end close processes. Ensure compliance with accounting standards.",
+    "requirements": "5+ years experience in accounting. CPA certification preferred. Strong knowledge of GAAP. Proficiency in accounting software (e.g., SAP, Oracle). Bachelor's degree in Accounting."
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Autonomous Systems Inc.",
+    "location": "Palo Alto, CA",
+    "description": "Build, train, and deploy machine learning models for real-time applications in autonomous vehicles. Optimize model performance and scalability.",
+    "requirements": "3+ years experience in ML engineering. Strong Python and C++. Experience with deep learning frameworks (TensorFlow, PyTorch). Familiarity with computer vision or sensor fusion. MS/PhD in Computer Science."
+  },
+  {
+    "title": "UI Developer, Frontend",
+    "company": "HealthTech Solutions",
+    "location": "Boston, MA",
+    "description": "Develop responsive and interactive user interfaces using modern web technologies. Collaborate with UX designers and backend engineers.",
+    "requirements": "3+ years experience in frontend development. Expertise in React, Angular, or Vue.js. Strong HTML, CSS, JavaScript skills. Portfolio demonstrating strong UI implementation. Bachelor's degree in Computer Science or related."
+  },
+  {
+    "title": "Senior Legal Counsel",
+    "company": "Energy Solutions Co.",
+    "location": "Washington, D.C.",
+    "description": "Provide legal advice and guidance on a wide range of corporate matters, including contracts, intellectual property, and regulatory compliance.",
+    "requirements": "8+ years experience practicing corporate law, preferably in the energy sector. JD degree from an accredited law school. Admitted to the bar in relevant jurisdiction. Strong negotiation and analytical skills."
+  },
+  {
+    "title": "Operations Manager",
+    "company": "Logistics & Supply Chain",
+    "location": "Memphis, TN",
+    "description": "Oversee daily operational activities, optimize processes, manage inventory, and ensure efficient delivery of goods and services.",
+    "requirements": "5+ years experience in operations management, preferably in logistics or supply chain. Strong leadership and problem-solving skills. Experience with ERP systems. Bachelor's degree in Business or Supply Chain Management."
+  },
+  {
+    "title": "Ethical Hacker / Penetration Tester",
+    "company": "Cybersecurity Services",
+    "location": "Remote (Europe)",
+    "description": "Conduct penetration tests, vulnerability assessments, and security audits to identify and remediate weaknesses in systems and applications.",
+    "requirements": "3+ years experience in penetration testing. Certifications like OSCP, CEH, or equivalent. Strong knowledge of networking, operating systems, and common attack vectors. Bachelor's degree in Cybersecurity or Computer Science."
+  },
+  {
+    "title": "Executive Assistant",
+    "company": "Venture Capital Firm",
+    "location": "Menlo Park, CA",
+    "description": "Provide high-level administrative support to a C-suite executive, including scheduling, travel arrangements, expense reports, and communication management.",
+    "requirements": "5+ years experience as an Executive Assistant supporting senior leadership. Exceptional organizational and communication skills. Proficiency in MS Office Suite. Discretion and professionalism are paramount."
+  },
+  {
+    "title": "Game Developer, Unity/C#",
+    "company": "Indie Game Studio",
+    "location": "Portland, OR",
+    "description": "Develop and implement game mechanics, UI, and features using Unity and C#. Collaborate with artists and designers to bring games to life.",
+    "requirements": "2+ years experience in game development with Unity/C#. Strong understanding of object-oriented programming. Experience shipping at least one game title. Bachelor's degree in Computer Science or related field."
+  },
+  {
+    "title": "Industrial Engineer",
+    "company": "Automotive Manufacturing",
+    "location": "Detroit, MI",
+    "description": "Optimize manufacturing processes, improve efficiency, reduce waste, and design layouts for production lines. Apply lean manufacturing principles.",
+    "requirements": "3+ years experience as an Industrial Engineer in a manufacturing environment. Strong analytical and problem-solving skills. Experience with CAD software. Bachelor's or Master's in Industrial Engineering."
+  },
+  {
+    "title": "Cloud Security Engineer",
+    "company": "Global Data Solutions",
+    "location": "London, UK",
+    "description": "Design, implement, and maintain security controls for our cloud infrastructure (AWS, Azure, GCP). Monitor for threats and respond to security incidents.",
+    "requirements": "4+ years experience in cloud security. Expertise in cloud security best practices and tools. Certifications like CCSP, AWS Security, or Azure Security Engineer. Strong scripting skills. Bachelor's degree in Computer Science or Cybersecurity."
+  },
+  {
+    "title": "Investment Analyst",
+    "company": "Hedge Fund Management",
+    "location": "Greenwich, CT",
+    "description": "Conduct in-depth financial analysis of companies and industries. Build financial models, prepare investment recommendations, and support portfolio managers.",
+    "requirements": "2+ years experience in investment banking, equity research, or a hedge fund. Strong financial modeling and valuation skills. CFA candidate or charterholder preferred. Bachelor's degree in Finance, Economics, or Accounting."
+  },
+  {
+    "title": "Account Executive, SaaS",
+    "company": "Marketing Automation Corp.",
+    "location": "Boston, MA",
+    "description": "Manage a portfolio of existing clients, nurture relationships, identify upsell opportunities, and ensure high customer satisfaction.",
+    "requirements": "3+ years experience as an Account Executive in a SaaS company. Proven ability to grow and retain client accounts. Excellent communication and presentation skills. Bachelor's degree."
+  },
+  {
+    "title": "Full-stack Developer",
+    "company": "Small Business Tech",
+    "location": "Remote (Canada)",
+    "description": "Develop and maintain both frontend and backend components of our web applications. Work across the entire software stack.",
+    "requirements": "4+ years experience as a Full-stack Developer. Proficiency in a modern frontend framework (React, Vue, Angular) and a backend language (Node.js, Python/Django, Ruby on Rails). Strong database skills (SQL/NoSQL). Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Biostatistician",
+    "company": "Clinical Research Org.",
+    "location": "Raleigh, NC",
+    "description": "Provide statistical expertise for clinical trials, including study design, sample size calculation, data analysis, and interpretation of results.",
+    "requirements": "Master's or PhD in Biostatistics or Statistics. 3+ years experience in clinical research or pharmaceutical industry. Proficiency in SAS or R. Strong understanding of regulatory guidelines."
+  },
+  {
+    "title": "Recruitment Specialist, Tech",
+    "company": "Global Talent Agency",
+    "location": "Dublin, Ireland",
+    "description": "Manage the full recruitment lifecycle for tech roles, from sourcing to offer negotiation. Build strong candidate pipelines and foster client relationships.",
+    "requirements": "3+ years experience in tech recruitment, either in-house or agency. Proven ability to attract top talent. Excellent interviewing and negotiation skills. Bachelor's degree in HR or related."
+  },
+  {
+    "title": "UX Researcher",
+    "company": "E-learning Platform",
+    "location": "San Mateo, CA",
+    "description": "Plan and conduct user research activities (interviews, surveys, usability testing). Analyze findings and translate them into actionable insights for product development.",
+    "requirements": "3+ years experience as a UX Researcher. Expertise in various research methodologies. Strong analytical and communication skills. Portfolio demonstrating research projects. Bachelor's or Master's in HCI, Psychology, or related."
+  },
+  {
+    "title": "Network Engineer",
+    "company": "Telecom Provider",
+    "location": "Kansas City, MO",
+    "description": "Design, implement, and maintain complex network infrastructure. Troubleshoot network issues, configure routers/switches, and ensure network security.",
+    "requirements": "4+ years experience as a Network Engineer. Certifications like CCNA, CCNP, or JNCIA. Expertise in TCP/IP, BGP, OSPF, VLANs. Strong troubleshooting skills. Bachelor's degree in Computer Science or IT."
+  },
+  {
+    "title": "Marketing Analyst",
+    "company": "Fashion Retailer",
+    "location": "New York, NY",
+    "description": "Analyze marketing campaign performance, customer data, and market trends to provide insights and recommendations for optimizing marketing spend.",
+    "requirements": "2+ years experience in marketing analytics. Proficiency in Google Analytics, Excel, and ideally a BI tool (e.g., Tableau, Power BI). Strong analytical and quantitative skills. Bachelor's degree in Marketing, Business, or Statistics."
+  },
+  {
+    "title": "Supply Chain Analyst",
+    "company": "Food & Beverage Corp.",
+    "location": "Minneapolis, MN",
+    "description": "Analyze supply chain data to identify inefficiencies, optimize logistics, and improve inventory management. Develop and implement solutions.",
+    "requirements": "3+ years experience as a Supply Chain Analyst. Strong analytical and data modeling skills. Experience with ERP and supply chain planning software. Bachelor's degree in Supply Chain Management or Industrial Engineering."
+  },
+  {
+    "title": "Frontend Developer, Mobile (React Native)",
+    "company": "Social Media Startup",
+    "location": "San Francisco, CA",
+    "description": "Build and maintain cross-platform mobile applications using React Native. Collaborate with designers and backend engineers to deliver a seamless user experience.",
+    "requirements": "3+ years experience in mobile development, with 2+ years in React Native. Strong JavaScript and Redux skills. Experience with consuming RESTful APIs. Portfolio demonstrating mobile app projects. Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Environmental Engineer",
+    "company": "Consulting Firm",
+    "location": "Sacramento, CA",
+    "description": "Design and implement solutions for environmental protection, waste management, and sustainable resource use. Conduct impact assessments and ensure compliance.",
+    "requirements": "3+ years experience as an Environmental Engineer. Strong knowledge of environmental regulations. Experience with environmental modeling software. PE license a plus. Bachelor's or Master's in Environmental Engineering."
+  },
+  {
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "Global SaaS Provider",
+    "location": "Seattle, WA",
+    "description": "Ensure the reliability, scalability, and performance of our production systems. Implement automation, monitor infrastructure, and respond to incidents.",
+    "requirements": "5+ years experience as an SRE or DevOps Engineer. Expertise in cloud platforms (AWS, GCP, Azure). Strong scripting (Python, Go) and automation skills. Experience with Kubernetes, Prometheus. Bachelor's degree in Computer Science."
+  },
+  {
+    "title": "Video Editor, Marketing Content",
+    "company": "Online Education Platform",
+    "location": "Remote (US)",
+    "description": "Edit and produce high-quality video content for marketing campaigns, tutorials, and social media. Work with motion graphics and sound design.",
+    "requirements": "3+ years experience in video editing. Proficiency in Adobe Premiere Pro, After Effects, and Photoshop. Strong storytelling and visual communication skills. Portfolio demonstrating diverse video projects."
+  },
+  {
+    "title": "Product Manager, Mobile Apps",
+    "company": "Fitness Tech Company",
+    "location": "Los Angeles, CA",
+    "description": "Define product strategy, roadmap, and requirements for our mobile fitness applications. Work closely with engineering, design, and marketing teams.",
+    "requirements": "5+ years experience in product management, with 2+ years focused on mobile apps. Strong understanding of agile methodologies. Excellent communication and analytical skills. Bachelor's degree in a technical or business field."
+  },
+  {
+    "title": "Staff Accountant",
+    "company": "Non-profit Organization",
+    "location": "Washington, D.C.",
+    "description": "Process accounts payable/receivable, reconcile bank statements, assist with payroll, and support month-end close activities.",
+    "requirements": "1-3 years experience in accounting. Proficiency in QuickBooks or similar accounting software. Strong attention to detail. Bachelor's degree in Accounting or Finance."
+  },
+  {
+    "title": "Cloud Architect, Azure",
+    "company": "Enterprise Solutions Inc.",
+    "location": "Atlanta, GA",
+    "description": "Design and implement scalable and secure cloud solutions on the Microsoft Azure platform. Provide technical leadership and best practices.",
+    "requirements": "7+ years experience in IT architecture, with 4+ years focused on Azure. Expertise in Azure IaaS, PaaS, and serverless technologies. Azure certifications (e.g., Azure Solutions Architect Expert). Bachelor's degree in Computer Science or related."
+  },
+  {
+    "title": "Business Intelligence Developer",
+    "company": "Healthcare Analytics",
+    "location": "Chicago, IL",
+    "description": "Develop and maintain BI dashboards, reports, and data models to support business decision-making. Work with various data sources and reporting tools.",
+    "requirements": "4+ years experience as a BI Developer. Expertise in SQL, data warehousing, and BI tools (e.g., Tableau, Power BI, Qlik Sense). Strong analytical skills. Bachelor's degree in Computer Science, Information Systems, or related."
+  },
+  {
+    "title": "Chemist, R&D",
+    "company": "Specialty Chemicals",
+    "location": "Houston, TX",
+    "description": "Conduct research and development activities for new chemical products and processes. Perform experiments, analyze data, and optimize formulations.",
+    "requirements": "PhD in Chemistry or Chemical Engineering. 3+ years experience in industrial R&D. Expertise in analytical techniques (e.g., HPLC, GC-MS, NMR). Strong problem-solving skills."
+  },
+  {
+    "title": "Frontend Developer, Web (Angular)",
+    "company": "Financial Software Group",
+    "location": "New York, NY",
+    "description": "Develop and maintain robust and high-performance web applications using Angular. Collaborate with backend teams to integrate APIs.",
+    "requirements": "4+ years experience in frontend development, with 2+ years focused on Angular. Strong TypeScript, HTML, CSS skills. Experience with RxJS. Bachelor's degree in Computer Science or related."
+  },
+  {
+    "title": "Scrum Master",
+    "company": "Agile Software Development",
+    "location": "Denver, CO",
+    "description": "Facilitate agile ceremonies, remove impediments, and coach development teams on Scrum principles and practices to ensure efficient project delivery.",
+    "requirements": "3+ years experience as a Scrum Master. Scrum Master certification (CSM, PSM I). Strong understanding of agile methodologies. Excellent communication and leadership skills. Bachelor's degree preferred."
+  },
+  {
+    "title": "Technical Writer",
+    "company": "B2B Software Solutions",
+    "location": "Remote (Global)",
+    "description": "Create clear, concise, and accurate technical documentation, including user manuals, API documentation, and online help content for software products.",
+    "requirements": "3+ years experience as a Technical Writer for software products. Excellent writing and communication skills. Proficiency in documentation tools (e.g., Confluence, Oxygen XML). Ability to understand complex technical concepts. Bachelor's degree in Technical Communication, English, or Computer Science."
+  }
+]

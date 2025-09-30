@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #141419;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2196f3;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #888;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.card {
+    background-color: #1e1e24;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2196f3;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    color: #b0b0b0;
+    margin-bottom: 0.5rem;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #141419;
+    border: 1px solid #2a2a30;
+    border-radius: 6px;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+.form-group textarea::placeholder {
+    color: #555;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.875rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1976d2;
+}
+
+.btn-primary:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+}
+
+/* Recommendations Styles */
+.recommendations-container {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.recommendations-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.recommendations-container::-webkit-scrollbar-track {
+    background: #141419;
+    border-radius: 4px;
+}
+
+.recommendations-container::-webkit-scrollbar-thumb {
+    background: #2a2a30;
+    border-radius: 4px;
+}
+
+.recommendations-container::-webkit-scrollbar-thumb:hover {
+    background: #3a3a40;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #666;
+}
+
+.empty-state svg {
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-state p {
+    font-size: 1rem;
+}
+
+.job-item {
+    background-color: #141419;
+    border: 1px solid #2a2a30;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.job-item:hover {
+    border-color: #2196f3;
+    transform: translateX(4px);
+}
+
+.job-item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+}
+
+.job-item .company {
+    color: #2196f3;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.job-item .location {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+/* Side Panel Styles */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.overlay.active {
+    display: block;
+}
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    width: 600px;
+    height: 100%;
+    background-color: #1e1e24;
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+}
+
+.side-panel.active {
+    right: 0;
+}
+
+.side-panel-content {
+    padding: 2rem;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    color: #2196f3;
+}
+
+.job-detail-section {
+    margin-bottom: 2rem;
+}
+
+.job-detail-section h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e0e0e0;
+    margin-bottom: 0.5rem;
+}
+
+.job-detail-section .company-name {
+    color: #2196f3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.job-detail-section .job-location {
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+.job-detail-section h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2196f3;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.job-detail-section p {
+    color: #b0b0b0;
+    line-height: 1.7;
+    white-space: pre-wrap;
+}
+
+.btn-analyze {
+    width: 100%;
+    padding: 0.875rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1.5rem;
+}
+
+.btn-analyze:hover {
+    background-color: #1976d2;
+}
+
+.btn-analyze:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+}
+
+.analysis-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #2a2a30;
+}
+
+.analysis-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.matches-section h4 {
+    color: #4caf50;
+}
+
+.missing-section h4 {
+    color: #ff9800;
+}
+
+.analysis-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.analysis-section li {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: #141419;
+    border-left: 3px solid #2196f3;
+    border-radius: 4px;
+    color: #b0b0b0;
+}
+
+.matches-section li {
+    border-left-color: #4caf50;
+}
+
+.missing-section li {
+    border-left-color: #ff9800;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+}
+
+.loading::after {
+    content: '...';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .side-panel {
+        width: 100%;
+        right: -100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+}

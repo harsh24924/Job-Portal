@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Job Recommender</h1>
+            <p>Find your perfect job match based on your resume</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Card - Resume Form -->
+            <div class="card form-card">
+                <h2>Your Resume</h2>
+                <form id="resumeForm">
+                    <div class="form-group">
+                        <label for="summary">Professional Summary</label>
+                        <textarea id="summary" name="summary" rows="3" placeholder="Brief overview of your professional background..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="skills">Skills</label>
+                        <textarea id="skills" name="skills" rows="3" placeholder="List your technical and soft skills..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="education">Education</label>
+                        <textarea id="education" name="education" rows="2" placeholder="Your educational background..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Experience</label>
+                        <textarea id="experience" name="experience" rows="4" placeholder="Your work experience..." required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="projects">Projects</label>
+                        <textarea id="projects" name="projects" rows="3" placeholder="Notable projects you've worked on..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Get Recommendations</button>
+                </form>
+            </div>
+
+            <!-- Right Card - Recommendations -->
+            <div class="card recommendations-card">
+                <h2>Recommended Jobs</h2>
+                <div id="recommendationsContainer" class="recommendations-container">
+                    <div class="empty-state">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        <p>Submit your resume to get personalized job recommendations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Side Panel for Job Details -->
+    <div id="sidePanel" class="side-panel">
+        <div class="side-panel-content">
+            <button class="close-btn" id="closePanel">&times;</button>
+            <div id="jobDetails"></div>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

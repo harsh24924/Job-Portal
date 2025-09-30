@@ -1,0 +1,14 @@
+A resume and a job is given below. Compare them and identify the key matches and missing requirements. Respond in JSON format. Follow the given format:
+
+{
+    "matches": [
+        "matching skill 1",
+        "matching skill 2",
+        "so on..."
+    ],
+    "missing": [
+        "missing skill 1",
+        "missing skill 2",
+        "so on..."
+    ]
+}
