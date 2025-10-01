@@ -1,0 +1,46 @@
+Summary:
+Highly motivated and results-oriented Mobile Developer with 5 years of experience specializing in native Android and cross-platform Flutter development. Proven ability to design, develop, and deploy high-performance, scalable mobile applications across various industries. Deep understanding of mobile UI/UX principles, state management, and integration with RESTful APIs. Seeking to leverage technical expertise to build innovative and user-centric mobile solutions.
+
+Technical Skills:
+Mobile Development: Native Android (Kotlin, Java), Flutter (Dart), React Native (Familiarity)
+Languages: Kotlin, Dart, Java, Python (Basic)
+Frameworks & Libraries: Android Jetpack (ViewModel, LiveData, Room), Firebase (Auth, Firestore, Analytics), Bloc/Provider (Flutter State Management), Retrofit, Dagger/Hilt
+Tools & Platforms: Git, Jira, Android Studio, VS Code, CI/CD (Jenkins/GitHub Actions), RESTful APIs, JSON/XML Parsing
+Testing: JUnit, Mockito, Espresso, Widget Testing (Flutter)
+
+Professional Experience:
+Senior Mobile Developer | TechSphere Innovations | San Francisco, CA
+June 2021 – Present
+Led the complete redevelopment of a core customer-facing logistics tracking application from legacy Java to modern Kotlin, resulting in a 35% improvement in load times.
+Architected and implemented a complex, real-time notification system using Firebase Cloud Messaging (FCM) for over 500,000 active users.
+Championed the adoption of Flutter for a new internal administrative tool, reducing cross-platform development time by 40% compared to maintaining separate native codebases.
+Designed and maintained robust data persistence layers using Room database, ensuring offline functionality and data synchronization integrity.
+Conducted rigorous code reviews and mentored three junior developers on Kotlin best practices, clean architecture (MVVM), and modularization strategies.
+
+Mobile Application Developer | Creative Digital Solutions | Seattle, WA
+July 2018 – May 2021
+Developed and launched two major consumer applications on the Google Play Store, achieving an average rating of 4.7 stars based on user feedback.
+Integrated various third-party SDKs for payment processing (Stripe) and analytics (Google Analytics for Firebase).
+Responsible for API integration using Retrofit, handling asynchronous operations, error handling, and data transformation.
+Optimized application performance by identifying and resolving memory leaks and inefficient background processing, reducing average CPU usage by 20%.
+Collaborated closely with UX/UI designers to translate high-fidelity mockups into pixel-perfect, responsive Android interfaces.
+
+Projects:
+HealthTrack Pro (Personal Project) | Flutter & Firebase
+Designed and built a comprehensive fitness tracking application featuring custom chart visualizations (using fl_chart) and authenticated user profiles via Firebase Authentication.
+Implemented local data caching using Hive database for offline activity logging.
+
+Open Source Contributor - Utility Library | Kotlin
+Contributed features and bug fixes to a popular open-source Android utility library used by thousands of developers.
+
+Education:
+Master of Science in Computer Science
+Massachusetts Institute of Technology (MIT) | Cambridge, MA
+Graduated: 2018
+
+Bachelor of Science in Software Engineering
+University of California, Berkeley (UC Berkeley) | Berkeley, CA
+Graduated: 2016
+
+Certifications:
+Google Certified Associate Android Developer (Issued: 2019)

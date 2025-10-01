@@ -3,8 +3,7 @@ import helpers
 
 def encode_resume(model, resume):
     categories = list(resume.values())
-    prefix = "clustering: "
-    sentences = [prefix + item for item in categories]
+    sentences = [str(category) for category in categories]
     embeddings = model.encode(sentences)
     return embeddings
 

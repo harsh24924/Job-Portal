@@ -3,14 +3,13 @@ import analyze
 import schemas
 import helpers
 import recommend
-from typing import List
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from sentence_transformers import SentenceTransformer
 
 app = FastAPI()
 
-model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code = True)
+model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2", device = "cpu")
 
 @app.post("/recommend/", response_model = list[schemas.Job])
 def get_recommendations(resume: schemas.Resume):

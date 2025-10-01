@@ -3,7 +3,7 @@ import numpy
 from schemas import Job
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer("nomic-ai/nomic-embed-text-v1.5", trust_remote_code = True)
+model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2", device = "cpu")
 data = json.load(open("data/jobs.json"))
 jobs = [Job(**item) for item in data]
 fields_order = ["title", "company", "location", "description", "requirements"]
@@ -13,10 +13,7 @@ for job in jobs:
     for field in fields_order:
         all_strings.append(getattr(job, field))
 
-task_prefix = "clustering: "
-prefixed_strings = [f"{task_prefix}{s}" for s in all_strings]
-
-embeddings_2d = model.encode(prefixed_strings, show_progress_bar = True)
+embeddings_2d = model.encode(all_strings, show_progress_bar = True)
 
 num_jobs = len(jobs)
 num_fields = len(fields_order)
